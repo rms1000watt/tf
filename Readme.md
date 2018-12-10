@@ -15,3 +15,11 @@ cd orgs
 ./create-app.sh rms1000watt us-west-2 prod messaging
 ./create-app.sh rms1000watt global global website
 ```
+
+## TODO
+
+- [ ] remote state for account number
+- [ ] test-main-orgs for prod
+- [ ] test-main-iam for prod
+- [ ] test-dev-vpc (assume role in terragrunt)
+- [ ] test-prod-vpc (assume role in terragrunt)
