@@ -5,7 +5,7 @@ terragrunt {
     backend = "s3"
 
     config {
-      # bucket         = "terraform-state-test-dev-${get_aws_account_id()}" # Bug here in: terragrunt version v0.17.3.. returns the main account not the sub account
+      # bucket = "terraform-state-test-dev-${get_aws_account_id()}" # Bug here in: terragrunt version v0.17.3.. returns the main account not the sub account
       bucket         = "terraform-state-test-dev-576536126380"
       region         = "us-west-2"
       dynamodb_table = "terraform-locks"

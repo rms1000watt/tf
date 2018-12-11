@@ -1,4 +1,4 @@
-aws_profile = "test-main"
+aws_profile = "test-dev"
 
 org_name = "test-dev"
 
