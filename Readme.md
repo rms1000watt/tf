@@ -18,8 +18,9 @@ cd orgs
 
 ## TODO
 
-- [ ] remote state for account number
+- [x] remote state for account number
+- [x] move to test-main for iam/orgs
+- [ ] test-dev-vpc (assume role in terragrunt)
 - [ ] test-main-orgs for prod
 - [ ] test-main-iam for prod
-- [ ] test-dev-vpc (assume role in terragrunt)
 - [ ] test-prod-vpc (assume role in terragrunt)

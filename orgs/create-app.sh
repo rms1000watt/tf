@@ -45,7 +45,7 @@ create-app() {
 terragrunt {
   terraform {
     source = "git::${remote}//apps/${app_name}?ref=0.1.0"
-    // source = "../../../..${sourceBackPath}/apps/${app_name}"
+    // source = "../../../..${sourceBackPath}/apps//${app_name}"
   }
 
   include {
